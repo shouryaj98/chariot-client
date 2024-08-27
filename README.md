@@ -36,7 +36,7 @@ To build the docker image containing all supported capabilities, run:
 make asm
 ```
 
-this will build the container with the name `chariot-asm`
+This will build the container with the name `chariot-asm`
 
 ### BAS
 
