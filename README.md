@@ -5,9 +5,10 @@ The client is a do-it-all binary that enables easy access to the Chariot offensi
 ## Building
 
 Run `make` to build all targets in this repository. This will build:
-- `chariot` cli utility
-- `chariot-asm` docker image
-- all BAS TTP binaries
+
+- A command-line interface for programmatic API access
+- A Docker image for running standalone capabilities (code that either discovers assets or identifies risks on them)
+- A collection of Breach and Attack Simulation (BAS) TTPs
 
 ## Features
 
