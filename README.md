@@ -16,7 +16,7 @@ Run `make` to build all targets in this repository. This will build:
 
 The command-line interface provides complete access to the Chariot API. It is built on top of a Go SDK and is the programmatic sibling to the [Chariot UI](https://github.com/praetorian-inc/chariot-ui).
 
-To build the cli, run:
+To build the CLI, run:
 
 ```
 make cli
@@ -36,7 +36,7 @@ To build the docker image containing all supported capabilities, run:
 make asm
 ```
 
-This will build the container with the name `chariot-asm`
+This will build a container with the name `chariot-asm`
 
 ### BAS
 
@@ -44,13 +44,13 @@ Breach and Attack Simulation represents a collection of MITRE ATT&CK TTPs that t
 
 [Build your own TTP](./cmd/bas)
 
-All BAS TTPs can be built using the command
+All BAS TTPs can be built using the command:
+
+> All binaries will be in `./build/bin` and will be compiled for Windows by default.
 
 ```
 make bas
 ```
-
-The resulting binaries will be in `./build/bin` and will be compiled for Windows by default.
 
 ### SDK
 
