@@ -18,7 +18,7 @@ The command-line interface provides complete access to the Chariot API. It is bu
 To build the cli, run:
 
 ```
-make
+make cli
 ```
 
 This will place a binary called `chariot` in the `./build/bin` directory. Feel free to add this to your `$PATH`.
